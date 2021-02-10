@@ -32,19 +32,23 @@ Kişiselleştirme:
 
 VERSİYON:
    Bot Versiyonu 0.0.1 Dir
+```
 
+First Header | Second Header
+------------ | -------------
 Komutlar:
-   başlat	= Müzik Dinlersiniz
-   devam = 	Durdurulan Müziği Tekrar Başlatır
-   durdur = 	Müziği Durdurur
-   döngü = 	Sıra daki Şarkıları Sürekli Çalar
+   başlat	= Müzik Dinlersiniz |   devam = 	Durdurulan Müziği Tekrar Başlatır
+   durdur = 	Müziği Durdurur |   döngü = 	Sıra daki Şarkıları Sürekli Çalar
    sıra = 	Müzik Kuyruğunu Gösterir
    np = Oynatılan Şarkıyı Söler    
    atla = Şarkı Atlarsınız
    yardım = Yardım Sayfasını Açar
                      
-
-```
+Komutlar | Açıklaması
+------------ | -------------
+başlat | Müzik Dinlersiniz
+durdur | Müziği Durdurur
+sıra   |
 
 
 ============================================================
@@ -60,3 +64,12 @@ Bu Projeyi Sizlere Paylaşıyorum Bunun Karşılığı Olarak [Kanalıma Abone O
 ## Yapımcı
 
 [MHMTMehmetCan](https://www.youtube.com/channel/UCtaEpmfJraIInuNGyWqLeHg)
+
+
+
+![Discord](https://cdn.glitch.com/74b67597-abd2-4e5c-bbe1-73ee5d051a26%2F9da631bb-9b88-4a6b-a296-5a1c7ad5e441.image.png?v=1612973765468)
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
