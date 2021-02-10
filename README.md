@@ -1,6 +1,6 @@
 Müzik Botu Altyapısı
 ====
-![Youtube](http://webmasterresimleri.1trk.net/muzik-dj/sinyal/11/in5oyqitzw8k92e1832.gif)
+![Youtube](https://webmasterresimleri.1trk.net/muzik-dj/sinyal/11/in5oyqitzw8k92e1832.gif)
  Projemde Sizlere **Herkese Açık** bir Müzik Botu Altyapısını göstercem
 
                                                                                                                                                                                                                    
