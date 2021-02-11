@@ -7,8 +7,8 @@ const { PREFIX } = require("./ayarlar.json")
 
 
 client.on("ready", () => {
-  console.log('Ready TO play some soft songs')
-  client.user.setActivity("!!yardım / Electro Music ")
+  console.log('Bot Başarıyla Giriş Yaptı')
+  client.user.setActivity("Youtube / MHMTMehmetCan ")
 })
 
 client.on("warn", info => console.log(info));
@@ -52,10 +52,5 @@ client.on("message", message => {
   
 });
 
-client.on("message", async msg => {
-  if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('ve aleykum selam kardeeeeş');
-  }
-});
 
 client.login(process.env.token)
