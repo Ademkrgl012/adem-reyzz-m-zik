@@ -11,7 +11,7 @@ module.exports = {
   async execute(client, message, args) {
 
     if (!args.length) {
-
+ //ArdaDemr Youtube kanalında paylaşılmış altyapı
       return message.channel.send("**Şarkı ismi veya link girmelisin.**");
     }
 
@@ -67,7 +67,7 @@ module.exports = {
           falses :songData.videoDetails.dislikes.toLocaleString()
          }
         };
-   
+    //ArdaDemr Youtube kanalında paylaşılmış altyapı
 
       } catch (error) {
         if (message.include === "copyright") {
@@ -119,7 +119,7 @@ module.exports = {
     } else {
       queueConstruct.songs.push(song);
     }
-    
+     //ArdaDemr Youtube kanalında paylaşılmış altyapı
     if(!serverQueue) message.client.queue.set(message.guild.id, queueConstruct)
     
      if (!serverQueue) {
@@ -134,7 +134,7 @@ module.exports = {
         return message.channel.send({embed: {"description": `Kanala giriş yapamıyorum.: ${error}`, "color": "#ff0a0a"}}).catch(console.error);
       }
     }
-    
+     //ArdaDemr Youtube kanalında paylaşılmış altyapı
     
   }
 };

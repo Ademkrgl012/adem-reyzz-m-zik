@@ -5,10 +5,10 @@ const { readdirSync } = require("fs");
 const { join } = require("path");
 const { PREFIX } = require("./ayarlar.json")
 
-
+ //ArdaDemr Youtube kanalında paylaşılmış altyapı
 client.on("ready", () => {
   console.log('Bot Başarıyla Giriş Yaptı')
-  client.user.setActivity("Youtube / MHMTMehmetCan ")
+  client.user.setActivity("ArdaDemr Music")
 })
 
 client.on("warn", info => console.log(info));
