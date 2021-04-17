@@ -7,10 +7,10 @@ const { PREFIX } = require("./ayarlar.json")
 
  //ArdaDemr Youtube kanalında paylaşılmış altyapı
 client.on("ready", () => {
-  console.log('Bot Başarıyla Giriş Yaptı')
+  console.log('ArdaDemr Müzik Bot Giriş Yaptı!')
   client.user.setActivity("ArdaDemr Music")
 })
-
+ //ArdaDemr Youtube kanalında paylaşılmış altyapı
 client.on("warn", info => console.log(info));
 
 client.on("error", console.error)
@@ -39,7 +39,7 @@ client.on("message", message => {
     if(!client.commands.has(command)) {
       return;
     } 
-    
+     //ArdaDemr Youtube kanalında paylaşılmış altyapı
   try  { 
       client.commands.get(command).execute(client, message, args)
     } catch (err) { 
@@ -48,7 +48,7 @@ client.on("message", message => {
     }
     
   }
-  
+   //ArdaDemr Youtube kanalında paylaşılmış altyapı
   
 });
 

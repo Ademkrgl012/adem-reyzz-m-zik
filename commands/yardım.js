@@ -21,4 +21,4 @@ module.exports = {
                        .setColor("ff0a0a")
                       )    
 }
-}
+} //ArdaDemr Youtube kanalında paylaşılmış altyapı

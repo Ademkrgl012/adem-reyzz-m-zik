@@ -5,7 +5,7 @@ module.exports = {
     const { channel } = message.member.voice;
 
     if (!channel) {
-  
+   //ArdaDemr Youtube kanalında paylaşılmış altyapı
       return message.channel.send("**Herhangi bir ses kanalında bulunmalısınız.**");
     }
 
@@ -14,7 +14,7 @@ module.exports = {
     if (!serverQueue) {
       return message.channel.send("**Atlayabileceğim bir şarkı yok.**");
     }
-
+ //ArdaDemr Youtube kanalında paylaşılmış altyapı
     serverQueue.connection.dispatcher.end();
     message.channel.send("✔ **| Şarkı geçildi.**");
   }
