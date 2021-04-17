@@ -12,13 +12,13 @@ module.exports = {
 
     if (!args.length) {
 
-      return message.channel.send("**Şarkı ismi veya Linki Vermen Gerek,**");
+      return message.channel.send("**Şarkı ismi veya link girmelisin.**");
     }
 
     const { channel } = message.member.voice;
     if (!channel) {
       
-      return message.channel.send("**Herhangi bir ses kanalında bulunmalısınız.**");
+      return message.channel.send("**Herhangi bir ses kanalına girmelisin.**");
     }
 
 
@@ -51,7 +51,7 @@ module.exports = {
       try {
          
          const result = await youtube.searchVideos(args[0], 1)
-         if(!result[0]) return message.channel.send('**Bu linkde bir şarkı bulamadım**')
+         if(!result[0]) return message.channel.send('**Yanlış link.**')
         songData = await ytdl.getInfo(result[0].url,{});
        
         console.log(songData)
@@ -81,7 +81,7 @@ module.exports = {
     } else {
       try {
          const result = await youtube.searchVideos(targetsong, 1)
-        if(!result[0]) return message.channel.send('**arama Sonucu Bulunamadı.**')
+        if(!result[0]) return message.channel.send('**Arama sonucu bulunamadı.**')
         songData = await ytdl.getInfo(result[0].url)
          song = {
            title: songData.videoDetails.title,

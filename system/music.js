@@ -8,7 +8,7 @@ module.exports = {
     if(!song) {
       queue.channel.leave();
       message.client.queue.delete(message.guild.id)
-      return queue.textChannel.send("Şarkı Sırası Şimdi Sona Erdi.").catch(console.error)
+      return queue.textChannel.send("Şarkı sırası şimdi sona erdi.").catch(console.error)
     }
     
     try {
@@ -40,7 +40,7 @@ module.exports = {
         module.exports.play(queue.songs[0], message)
       }
     }).on("error", console.error)
-    dispatcher.setVolumeLogarithmic(queue.volume / 100); //sesi buradan arttırırsınız
+    dispatcher.setVolumeLogarithmic(queue.volume / 100); //Sesi buradan arttırabilirsiniz.
     
     
     

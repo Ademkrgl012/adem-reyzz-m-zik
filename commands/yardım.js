@@ -8,12 +8,12 @@ module.exports = {
                       .setDescription(
     `
 \`${PREFIX}oynat <şarkı-adı>\` : **Bir Şarkıyı Oynatır.** \n
-\`${PREFIX}atla\` : **Sıradaki Şarkıyı atlar.**\n
-\`${PREFIX}döngü\` : **O Anki şarkıyı Hep tekrarlar.**\n
-\`${PREFIX}durdur\` : **O anki Şarkıyı Durdurur.**\n
-\`${PREFIX}devam\` : **Duran Şarkıyı Devam Ettirir.**\n
-\`${PREFIX}sıra\` : **O Anki Sırayı Gösterir.**\n
-\`${PREFIX}np\` : **O Anki Oynatılan Şarkıyı Söyler.**\n
+\`${PREFIX}atla\` : **Sıradaki şarkıyı atlar.**\n
+\`${PREFIX}döngü\` : **Çalan şarkıyı sürekli tekrarlar.**\n
+\`${PREFIX}durdur\` : **Şarkıyı durdurur.**\n
+\`${PREFIX}devam\` : **Duran şarkıyı devam ettirir.**\n
+\`${PREFIX}sıra\` : **Şarkı sırasını gösterir.**\n
+\`${PREFIX}np\` : **Oynatılan şarkının adını söyler.**\n
 
 
 

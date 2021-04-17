@@ -1,11 +1,11 @@
 {
-  "//1": "MHMT Music V12 Sürümü İle",
-  "name": "mhmtmusic",
+  "//1": "v12 Müzik Botu",
+  "name": "ArdaDemrMusic",
   "version": "0.0.1",
-  "description": "MHMTMehmetCan Sizler İçin Hazırladığım Müzik Botu.",
-  "main": "MHMT.js",
+  "description": "ArdaDemr Müzik Botu",
+  "main": "ardademr.js",
   "scripts": {
-    "start": "node MHMT.js"
+    "start": "node ardademr.js"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -30,5 +30,5 @@
     "glitch",
     "express"
   ],
-  "author": "MHMTMehmetCan"
+  "author": "ArdaDemr"
 }
