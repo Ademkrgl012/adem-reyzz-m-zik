@@ -4,14 +4,13 @@ const ytdl = require("ytdl-core");
 const YoutubeAPI = require("simple-youtube-api");
 const youtube = new YoutubeAPI(YOUTUBE_API_KEY);
 const Discord = require('discord.js')
-const { play } = require("../system/music.js") 
+const { play } = require("../sistem/music.js") 
 module.exports = {
   name: "oynat",
   description: "PLAY THE SOFTNESS OF THE SOUND",
   async execute(client, message, args) {
 
     if (!args.length) {
- //ArdaDemr Youtube kanalında paylaşılmış altyapı
       return message.channel.send("**Şarkı ismi veya link girmelisin.**");
     }
 
@@ -67,7 +66,6 @@ module.exports = {
           falses :songData.videoDetails.dislikes.toLocaleString()
          }
         };
-    //ArdaDemr Youtube kanalında paylaşılmış altyapı
 
       } catch (error) {
         if (message.include === "copyright") {
@@ -119,7 +117,6 @@ module.exports = {
     } else {
       queueConstruct.songs.push(song);
     }
-     //ArdaDemr Youtube kanalında paylaşılmış altyapı
     if(!serverQueue) message.client.queue.set(message.guild.id, queueConstruct)
     
      if (!serverQueue) {
@@ -134,7 +131,6 @@ module.exports = {
         return message.channel.send({embed: {"description": `Kanala giriş yapamıyorum.: ${error}`, "color": "#ff0a0a"}}).catch(console.error);
       }
     }
-     //ArdaDemr Youtube kanalında paylaşılmış altyapı
     
   }
 };

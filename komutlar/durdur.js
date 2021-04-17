@@ -7,7 +7,6 @@ module.exports = {
     
       return message.channel.send("**Herhangi bir ses kanalında bulunmalısınız.**");
     }
- //ArdaDemr Youtube kanalında paylaşılmış altyapı
     const serverQueue = message.client.queue.get(message.guild.id);
 
     if (!serverQueue) {
@@ -17,7 +16,6 @@ module.exports = {
     if(serverQueue && serverQueue.playing) {
       serverQueue.playing = false;
       serverQueue.connection.dispatcher.pause(true)
-       //ArdaDemr Youtube kanalında paylaşılmış altyapı
       
       return message.channel.send("✅ **| Oynatılan şarkı duraklatıldı.**")
   }  

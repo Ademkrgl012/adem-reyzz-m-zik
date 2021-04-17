@@ -5,7 +5,6 @@ module.exports = {
     
       const { channel } = message.member.voice;
     if (!channel) {
-       //ArdaDemr Youtube kanalında paylaşılmış altyapı
       return message.channel.send("**Herhangi bir ses kanalında bulunmalısınız.**");
     }
 
